@@ -17,18 +17,14 @@ import static tk.simplaysgames.xppickup.utils.ConfigValues.RELOAD;
 public class TabCompletion implements TabCompleter{
     @Override
     public List<String> onTabComplete (CommandSender sender, Command cmd, String label, String[] args){
-        if(cmd.getName().equalsIgnoreCase("xppickup") && args.length >= 0){
-            if(sender instanceof Player){
-                Player player = (Player) sender;
+        if(args.length == 0){
+            List<String> completions = new ArrayList<>();
+            completions.add("help");
 
-                List<String> list = new ArrayList<>();
-                list.add("help");
-
-                if(player.hasPermission(RELOAD)) {
-                    list.add("reload");
-                }
-                return list;
-
+            if(sender.hasPermission(RELOAD)) {
+                completions.add("reload");
+            }
+            return list;
             }
         }
         return null;
