@@ -19,7 +19,7 @@ import static tk.simplaysgames.xppickup.utils.ConfigValues.*;
  */
 public class XPListener implements Listener{
 
-    @EventHandler(priority= EventPriority.HIGHEST)
+    @EventHandler(priority= EventPriority.NORMAL)
     public void onThrow (ProjectileLaunchEvent event){
         if(event.getEntity() instanceof ThrownExpBottle){
             ThrownExpBottle bottle = (ThrownExpBottle) event.getEntity();
@@ -34,7 +34,6 @@ public class XPListener implements Listener{
                     if (COLLECTXPMESSAGE) {
                         player.sendMessage(COLLECTXPMSG.replace("{%amount%}", experience + ""));
                     }
-
                     else {
                         Util.DEBUG("No message set", PrintType.INGAME);
                     }
@@ -49,6 +48,5 @@ public class XPListener implements Listener{
                 }
             }
         }
-        return;
     }
 }

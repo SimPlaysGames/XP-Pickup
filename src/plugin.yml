@@ -1,4 +1,7 @@
 name: XP-Pickup
 version: 1.0
 author: SimPlaysGames
-main: tk.simplaysgames.xppickup
+main: tk.simplaysgames.xppickup.Main
+commands:
+  xppickup:
+    description: XP-Pickup commands
