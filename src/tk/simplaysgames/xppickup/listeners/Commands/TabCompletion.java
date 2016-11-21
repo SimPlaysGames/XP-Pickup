@@ -17,7 +17,7 @@ import static tk.simplaysgames.xppickup.utils.ConfigValues.RELOAD;
 public class TabCompletion implements TabCompleter{
     @Override
     public List<String> onTabComplete (CommandSender sender, Command cmd, String label, String[] args){
-        if(args.length == 0){
+        if(args.length <= 1){
             List<String> completions = new ArrayList<>();
             completions.add("help");
 
@@ -26,7 +26,7 @@ public class TabCompletion implements TabCompleter{
             }
             return list;
             }
+        return Collections.emptyList();
         }
-        return null;
     }
 }
