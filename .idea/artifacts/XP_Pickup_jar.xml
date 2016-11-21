@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="XP-Pickup:jar">
+    <output-path>$PROJECT_DIR$/../Plugin</output-path>
+    <root id="archive" name="XP-Pickup.jar">
+      <element id="module-output" name="XP-Pickup" />
+      <element id="extracted-dir" path="I:/Spigot/1.8.8/spigot-1.8.8.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

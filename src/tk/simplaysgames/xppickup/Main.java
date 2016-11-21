@@ -25,7 +25,6 @@ public class Main extends JavaPlugin{
 
     @Override
     public void onEnable(){
-
         //Config
         Util.DEBUG("Trying to save defualt config.", PrintType.CONSOLE);
         this.saveDefaultConfig();

@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module type="JAVA_MODULE" version="4">
-  <component name="NewModuleRootManager" inherit-compiler-output="true">
+  <component name="NewModuleRootManager" inherit-compiler-output="false">
+    <output url="file://$MODULE_DIR$/.." />
+    <output-test url="file://$MODULE_DIR$/../test/XP-Pickup" />
     <exclude-output />
     <content url="file://$MODULE_DIR$">
       <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
@@ -10,11 +12,11 @@
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar://D:/Spigot API/spigot-1.8.8-R0.1-SNAPSHOT-latest.jar!/" />
+          <root url="jar://I:/Spigot/1.8.8/spigot-1.8.8.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES>
-          <root url="jar://D:/Spigot API/spigot-1.8.8-R0.1-SNAPSHOT-latest.jar!/" />
+          <root url="jar://I:/Spigot/1.8.8/spigot-1.8.8.jar!/" />
         </SOURCES>
       </library>
     </orderEntry>
