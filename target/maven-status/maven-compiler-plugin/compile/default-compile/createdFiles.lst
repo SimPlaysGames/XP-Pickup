@@ -1,0 +1,9 @@
+tk\simplaysgames\xppickup\listeners\Commands\XPCommands.class
+tk\simplaysgames\xppickup\utils\Util.class
+tk\simplaysgames\xppickup\utils\SoundUtil.class
+tk\simplaysgames\xppickup\utils\ConfigValues.class
+tk\simplaysgames\xppickup\Main.class
+tk\simplaysgames\xppickup\listeners\Commands\TabCompletion.class
+tk\simplaysgames\xppickup\utils\Util$PrintType.class
+tk\simplaysgames\xppickup\listeners\XPListener.class
+tk\simplaysgames\xppickup\utils\Util$1.class

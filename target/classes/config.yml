@@ -1,0 +1,12 @@
+configuration:
+  debug: false
+  collectxpmessage: false
+  collectxpsound: true
+
+  permissions:
+    xppickup: 'xp-pickup.pickup'
+    reload: 'xp-pickup.reload'
+
+  messages:
+    collectxpmsg: '&a&l{%amount%} EXP'
+    reloadmsg: '&c(!) You have just reloaded &c&nXp Level'
