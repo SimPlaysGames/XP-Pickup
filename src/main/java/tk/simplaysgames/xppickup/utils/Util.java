@@ -6,9 +6,6 @@ import org.bukkit.ChatColor;
 /**
  * Created by SimPlaysGames on 20-Nov-16.
  *
- * Thanks to OscarWOHA for contributing
- * https://github.com/OscarWoHA
- *
  */
 public class Util {
     public static String PREFIX = "";
